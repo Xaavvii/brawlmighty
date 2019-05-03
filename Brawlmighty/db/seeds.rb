@@ -14,15 +14,15 @@ Alignment.create(name: "Villain")
 #powers
 Power.create(name: "Super speed", description: "Ability to run at and above super-sonic speed", img_url: "https://timedotcom.files.wordpress.com/2016/08/gettyimages-589521390.jpg", alignment_id: 1)
 
-Power.create(name: "Super speed", description: "Ability to run at and above super-sonic speed", img_url: "https://timedotcom.files.wordpress.com/2016/08/gettyimages-589521390.jpg", alignment_id: 2)
+Power.create(name: "Villainous velocity", description: "Ability to run at and above super-sonic speed", img_url: "https://timedotcom.files.wordpress.com/2016/08/gettyimages-589521390.jpg", alignment_id: 2)
 
 Power.create(name: "Super strength", description: "Physical strength far in excess of normal human limitation", img_url: "https://static.tvtropes.org/pmwiki/pub/images/super_strength.jpg", alignment_id: 1)
 
-Power.create(name: "Super strength", description: "Physical strength far in excess of normal human limitation", img_url: "https://static.tvtropes.org/pmwiki/pub/images/super_strength.jpg", alignment_id: 2)
+Power.create(name: "Punishing Power", description: "Physical strength far in excess of normal human limitation", img_url: "https://static.tvtropes.org/pmwiki/pub/images/super_strength.jpg", alignment_id: 2)
 
 Power.create(name: "Telekinesis", description: "Psychic ability to move physical objects", img_url: "https://coubsecure-s.akamaihd.net/get/b55/p/coub/simple/cw_timeline_pic/07105466660/ff7b345d39f623494252f/big_1528558141_image.jpg", alignment_id: 1)
 
-Power.create(name: "Telekinesis", description: "Psychic ability to move physical objects", img_url: "https://coubsecure-s.akamaihd.net/get/b55/p/coub/simple/cw_timeline_pic/07105466660/ff7b345d39f623494252f/big_1528558141_image.jpg", alignment_id: 2)
+Power.create(name: "Telekinesis...but evil", description: "Psychic ability to move physical objects", img_url: "https://coubsecure-s.akamaihd.net/get/b55/p/coub/simple/cw_timeline_pic/07105466660/ff7b345d39f623494252f/big_1528558141_image.jpg", alignment_id: 2)
 
 Power.create(name: "Healing", description: "Quickly and completely heal even the most severe of injuries in onself or others", img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Asklepios_-_Epidauros.jpg/220px-Asklepios_-_Epidauros.jpg", alignment_id: 1)
 
