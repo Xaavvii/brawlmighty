@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
 ActiveRecord::Schema.define(version: 6) do
 
   create_table "alignments", force: :cascade do |t|
@@ -24,7 +23,6 @@ ActiveRecord::Schema.define(version: 6) do
     t.integer "power_id"
     t.integer "weapon_id"
     t.integer "terrain_id"
-A
   end
 
   create_table "powers", force: :cascade do |t|
@@ -38,32 +36,19 @@ A
     t.string "name"
     t.string "description"
     t.string "img_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-
     t.string "username"
     t.string "password"
-
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "weapons", force: :cascade do |t|
     t.string "name"
     t.string "description"
-
     t.string "img_url"
     t.integer "alignment_id"
-
-    t.integer "alignment"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-
   end
 
 end
