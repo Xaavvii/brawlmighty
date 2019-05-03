@@ -1,2 +1,8 @@
-<h1>Powers#index</h1>
-<p>Find me in app/views/powers/index.html.erb</p>
+<h1>Powers</h1>
+<ul>
+  <% @powers.each do |power| %>
+  <li>
+    <%= link_to power.name, power %>
+  </li>
+  <% end %>
+</ul>
