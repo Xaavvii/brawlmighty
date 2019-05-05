@@ -1,0 +1,10 @@
+<%= form_for(@character) do |f| %>
+ <%= f.label :name %>
+ <%= f.text_field :name %><br>
+
+<%= f.collection_select(:alignment_id, Alignment.all, :id, :name, prompt: true) %><br>
+<%= f.collection_select(:power_id, Power.all, :id, :name, prompt: true) %><br>
+<%= f.collection_select(:weapon_id, Weapon.all, :id, :name, prompt: true) %><br>
+<%= f.collection_select(:terrain_id, Terrain.all, :id, :name, prompt: true) %><br>
+ <%= f.submit %>
+<% end %>

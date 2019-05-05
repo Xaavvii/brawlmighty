@@ -1,22 +1,10 @@
 class TerrainsController < ApplicationController
   def index
+    @terrains = Terrain.all
   end
 
   def show
+    @terrain = Terrain.find([:id])
   end
 
-  def new
-  end
-
-  def create
-  end
-
-  def edit
-  end
-
-  def update
-  end
-
-  def destroy
-  end
 end

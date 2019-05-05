@@ -1,2 +1,8 @@
-<h1>Terrains#index</h1>
-<p>Find me in app/views/terrains/index.html.erb</p>
+<h1>Terrain</h1>
+<ul>
+  <% @terrains.each do |terrain| %>
+  <li>
+    <%= link_to terrain.name, terrain %>
+  </li>
+  <% end %>
+</ul>
