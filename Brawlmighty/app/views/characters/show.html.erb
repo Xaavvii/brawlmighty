@@ -1,2 +1,6 @@
-<h1><%= @character.name %></h1>
-<h2>Age: <%= @character.description %></h2>
+<h1>Character Name: <%= @character.name %></h1>
+<h2>Alignment: <%= @character.alignment.name %></h2>
+<h2>Power: <%= @character.power.name %></h2>
+<h2>Weapon: <%= @character.weapon.name %></h2>
+<h2>Terrain: <%= @character.terrain.name %></h2>
+<h2>Master: <%= @character.user.username %></h2>

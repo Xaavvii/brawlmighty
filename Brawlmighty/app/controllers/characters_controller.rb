@@ -4,7 +4,7 @@ class CharactersController < ApplicationController
   end
 
   def show
-    @character = Character.find[params[:id]]
+    @character = Character.find(params[:id])
   end
 
   def new
@@ -35,6 +35,6 @@ class CharactersController < ApplicationController
   private
 
   def secure_params
-    params.require(:character).permit(:name, :alignment_id, :power_id, :weapon_id, :terrain_id)
+    params.require(:character).permit(:name, :alignment_id, :power_id, :weapon_id, :terrain_id, :user_id)
   end
 end

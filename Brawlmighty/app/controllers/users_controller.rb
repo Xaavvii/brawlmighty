@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(secure_params)
-    User.save
+    @user.save
     redirect_to @user
   end
 
@@ -34,6 +34,6 @@ class UsersController < ApplicationController
 
   #HELPER METHOD
   def secure_params
-    parmas.require(:user).permit(:password)
+    params.require(:user).permit(:name, :username, :password)
   end
 end
