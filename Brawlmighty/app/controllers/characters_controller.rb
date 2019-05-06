@@ -13,8 +13,12 @@ class CharactersController < ApplicationController
 
   def create
     @character = Character.new(secure_params)
-    @character.save
-    redirect_to @character
+    if @character.valid?
+      @character.save
+      redirect_to @character
+    else
+      render :new
+    end
   end
 
   def edit
