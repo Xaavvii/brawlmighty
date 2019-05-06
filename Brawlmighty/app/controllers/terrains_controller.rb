@@ -4,7 +4,7 @@ class TerrainsController < ApplicationController
   end
 
   def show
-    @terrain = Terrain.find([:id])
+    @terrain = Terrain.find(params[:id])
   end
 
 end
