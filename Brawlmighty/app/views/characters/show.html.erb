@@ -1,6 +1,6 @@
 <h1>Character Name: <%= @character.name %></h1>
-<h2>Alignment: <%= @character.alignment.name %></h2>
-<h2>Power: <%= @character.power.name %></h2>
-<h2>Weapon: <%= @character.weapon.name %></h2>
-<h2>Terrain: <%= @character.terrain.name %></h2>
-<h2>Master: <%= @character.user.username %></h2>
+<h2>Alignment: <%= link_to @character.alignment.name, @character.alignment %></h2>
+<h2>Power: <%= link_to @character.power.name, @character.power %></h2>
+<h2>Weapon: <%= link_to @character.weapon.name, @character.weapon %></h2>
+<h2>Terrain: <%= link_to @character.terrain.name, @character.terrain %></h2>
+<h2>Master: <%= link_to @character.user.username, @character.user %></h2>
