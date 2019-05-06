@@ -1,5 +1,5 @@
 <h1>Character Name: <%= @character.name %></h1>
-<h2>Alignment: <%= link_to @character.alignment.name, @character.alignment %></h2>
+<h2>Alignment: <%= link_to @character.alignment.name, alignments_path %></h2>
 <h2>Power: <%= link_to @character.power.name, @character.power %></h2>
 <h2>Weapon: <%= link_to @character.weapon.name, @character.weapon %></h2>
 <h2>Terrain: <%= link_to @character.terrain.name, @character.terrain %></h2>
