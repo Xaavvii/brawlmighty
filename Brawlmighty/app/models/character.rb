@@ -17,14 +17,14 @@ class Character < ApplicationRecord
 
 
   def power_alignment_match
-    unless self.power.alignment == self.alignment
-      errors.add(:power, "Power must match with alignment")
-    end
+    # unless self.power.alignment == self.alignment
+    #   errors.add(:power, "Power must match with alignment")
+    # end
   end
 
   def weapon_alignment_match
-    unless self.weapon.alignment == self.alignment
-      errors.add(:weapon, "Weapon must match with alignment")
-    end
+    # unless self.weapon.alignment == self.alignment
+    #   errors.add(:weapon, "Weapon must match with alignment")
+    # end
   end
 end
