@@ -1,3 +1,7 @@
+<% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+
 <h1>Character Name: <%= @character.name %></h1>
 <h2>Alignment: <%= link_to @character.alignment.name, alignments_path %></h2>
 <h2>Power: <%= link_to @character.power.name, @character.power %></h2>

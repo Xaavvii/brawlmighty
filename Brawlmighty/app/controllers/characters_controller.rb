@@ -15,8 +15,10 @@ class CharactersController < ApplicationController
     @character = Character.new(secure_params)
     if @character.valid?
       @character.save
+      flash[:notice] = "You sucessfully saved your character!"
       redirect_to @character
     else
+      flash[:notice] = "Oh no. Please try again to create your character."
       render :new
     end
   end
