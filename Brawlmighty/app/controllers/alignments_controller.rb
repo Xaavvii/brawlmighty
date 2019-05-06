@@ -1,22 +1,11 @@
 class AlignmentsController < ApplicationController
   def index
+    @alignments = Alignment.all
   end
 
   def show
+    @alignment = Alignment.find(params[:id])
   end
 
-  def new
-  end
 
-  def create
-  end
-
-  def edit
-  end
-
-  def update
-  end
-
-  def destroy
-  end
 end

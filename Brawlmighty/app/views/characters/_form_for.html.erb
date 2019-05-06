@@ -1,0 +1,11 @@
+<%= form_for(@character) do |f| %>
+ <%= f.label :name %>
+ <%= f.text_field :name %><br>
+
+<%= f.collection_select(:alignment_id, Alignment.all, :id, :name, prompt: "Are you good or bad?") %><br>
+<%= f.collection_select(:power_id, Power.all, :id, :name, prompt: "Choose your power!") %><br>
+<%= f.collection_select(:weapon_id, Weapon.all, :id, :name, prompt: "Pick a weapon!") %><br>
+<%= f.collection_select(:terrain_id, Terrain.all, :id, :name, prompt: "Which environment you fight best?") %><br>
+<%= f.collection_select(:user_id, User.all, :id, :username, prompt: "Which master you belong to?") %><br>
+ <%= f.submit %>
+<% end %>

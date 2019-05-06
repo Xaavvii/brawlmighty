@@ -1,2 +1,8 @@
-<h1>Alignments#index</h1>
-<p>Find me in app/views/alignments/index.html.erb</p>
+<h1>Alignments</h1>
+<ul>
+  <% @alignments.each do |alignment| %>
+  <li>
+    <%= link_to alignment.name, alignment %>
+  </li>
+  <% end %>
+</ul>
