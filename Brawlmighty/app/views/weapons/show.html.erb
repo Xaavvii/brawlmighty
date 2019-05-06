@@ -1,3 +1,11 @@
 <h1><%= @weapon.name %></h1>
 <h2><%= @weapon.description %></h2>
 <%= image_tag @weapon.img_url %>
+
+<% Character.all.map do |char| %>
+  <% if char.weapon == @weapon %>
+    <li>
+      <%= link_to char.name, character_path(char) %>
+    </li>
+  <% end %>
+<% end %>

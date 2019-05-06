@@ -1,3 +1,11 @@
 <h1><%= @power.name %></h1>
 <h2><%= @power.description %></h2>
 <%= image_tag @power.img_url %>
+
+<% Character.all.map do |char| %>
+  <% if char.power == @power %>
+    <li>
+      <%= link_to char.name, character_path(char) %>
+    </li>
+  <% end %>
+<% end %>
