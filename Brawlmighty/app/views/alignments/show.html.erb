@@ -1,1 +1,10 @@
 <h1><%= link_to @alignment.name, alignments_path %></h1>
+
+
+<% Character.all.map do |char| %>
+  <% if char.alignment == @alignment %>
+    <li>
+      <%= link_to char.name, character_path(char) %>
+    </li>
+  <% end %>
+<% end %>

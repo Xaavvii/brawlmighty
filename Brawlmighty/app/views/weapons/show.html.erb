@@ -1,4 +1,4 @@
-<h1><%= @weapon.name %></h1>
+<h1><%= link_to @weapon.name, weapons_path %></h1>
 <h2><%= @weapon.description %></h2>
 <%= image_tag @weapon.img_url %>
 
