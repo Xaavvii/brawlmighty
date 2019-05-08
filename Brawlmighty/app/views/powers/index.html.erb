@@ -1,8 +1,9 @@
-<h1>Powers</h1>
-<ul>
+<div id="header_title"> <h1>Powers</h1> </div>
+
+<div id="grid">
   <% @powers.each do |power| %>
-  <li>
+  <div>
     <%= link_to power.name, power %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>

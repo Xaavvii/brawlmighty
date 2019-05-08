@@ -1,8 +1,8 @@
-<h1>Weapons</h1>
-<ul>
+<div id="header_title"> <h1>Weapons</h1> </div>
+<div id="grid">
   <% @weapons.each do |weapon| %>
-  <li>
+  <div>
     <%= link_to weapon.name, weapon %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>

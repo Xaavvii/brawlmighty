@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+  background-color: black;
+  /* font-family: Verdana, Geneva, Arial, sans-serif; */
+  padding:0px;
+  margin:0px;
+}
+
+#header_title
+{
+  text-align: center;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+#grid
+{
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2vw;
+}
+
+#grid > div
+{
+  font-size: 4vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}

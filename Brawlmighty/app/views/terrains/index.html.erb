@@ -1,8 +1,9 @@
-<h1>Terrain</h1>
-<ul>
+<div id="header_title"> <h1>Terrain</h1> </div>
+
+<div id="grid">
   <% @terrains.each do |terrain| %>
-  <li>
+  <div>
     <%= link_to terrain.name, terrain %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>
