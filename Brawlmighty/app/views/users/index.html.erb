@@ -1,8 +1,9 @@
-<h1>Users</h1>
-<ul>
+<div id="header_title"> <h1>Users</h1> </div>
+
+<div id="grid">
   <% @users.each do |user| %>
-  <li>
+  <div>
     <%= link_to user.name, user %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>

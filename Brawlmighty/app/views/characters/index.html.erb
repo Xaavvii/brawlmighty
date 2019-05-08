@@ -1,8 +1,9 @@
-<h1>Characters</h1>
-<ul>
+<div id="header_title"> <h1>Characters</h1> </div>
+
+<div id="grid">
   <% @characters.each do |character| %>
-  <li>
+  <div>
     <%= link_to character.name, character %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>

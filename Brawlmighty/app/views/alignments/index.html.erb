@@ -1,8 +1,9 @@
-<h1>Alignments</h1>
-<ul>
+<div id="header_title" <h1>Alignments</h1> </div>
+
+<div id="grid">
   <% @alignments.each do |alignment| %>
-  <li>
+  <div>
     <%= link_to alignment.name, alignment %>
-  </li>
+  </div>
   <% end %>
-</ul>
+</div>
