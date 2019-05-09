@@ -14,15 +14,15 @@ Alignment.create(name: "Villain")
 #powers
 Power.create(name: "Super speed", description: "Ability to run at and above super-sonic speed", img_url: "https://aussiegossip.com.au/wp-content/uploads/2016/08/7734332-3x2-700x467-1.jpg", alignment_id: 1)
 
-Power.create(name: "Villainous velocity", description: "Ability to run at and above super-sonic speed", img_url: "https://aussiegossip.com.au/wp-content/uploads/2016/08/7734332-3x2-700x467-1.jpg", alignment_id: 2)
+Power.create(name: "Command of animals", description: "Ability converse with all animals, and to make them do your bidding.", img_url: "https://data.whicdn.com/images/62185550/original.jpg", alignment_id: 2)
 
 Power.create(name: "Super strength", description: "Physical strength far in excess of normal human limitation", img_url: "https://static.tvtropes.org/pmwiki/pub/images/super_strength.jpg", alignment_id: 1)
 
-Power.create(name: "Punishing Power", description: "Physical strength far in excess of normal human limitation", img_url: "https://static.tvtropes.org/pmwiki/pub/images/super_strength.jpg", alignment_id: 2)
+Power.create(name: "Flight", description: "It's a bird! It's a plane! No, it's...you get the idea.", img_url: "https://static1.squarespace.com/static/529e3f47e4b0437241215504/t/5519d36de4b0972a5615f1ef/1427755886185/", alignment_id: 2)
 
 Power.create(name: "Telekinesis", description: "Psychic ability to move physical objects", img_url: "https://usercontent1.hubstatic.com/13677486_f496.jpg", alignment_id: 1)
 
-Power.create(name: "Telekinesis...but evil", description: "Psychic ability to move physical objects", img_url: "https://usercontent1.hubstatic.com/13677486_f496.jpg", alignment_id: 2)
+Power.create(name: "Technopathy", description: "Instictive knowledge of and ability to manipulate technology", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Doctor_Octopus_2004_film.jpg/220px-Doctor_Octopus_2004_film.jpg", alignment_id: 2)
 
 Power.create(name: "Healing", description: "Quickly and completely heal even the most severe of injuries in onself or others", img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Asklepios_-_Epidauros.jpg/220px-Asklepios_-_Epidauros.jpg", alignment_id: 1)
 
@@ -33,19 +33,19 @@ Power.create(name: "Force field", description: "Using psychic power, generate an
 Power.create(name: "Explosion", description: "Using psychic power, create a large, destructive explosion at the user's location", img_url: "https://imgc.allpostersimages.com/img/Mounting/posters/fireball-of-h-bomb-explosion-after-test-blast-over-bikini-atoll_a-G-5288021-4990880.jpg", alignment_id: 2)
 
 #weaons
-Weapon.create(name: "Halberd", description: "Long, two-handed pole weapon with an axe-like blade on the end.", img_url: "https://mcishop.azureedge.net/mciassets/w_5_0021169_crescent-16th-century-decorative-medieval-halberd_550.png", alignment_id: 1)
+Weapon.create(name: "Glaive", description: "Long polearm with a single-edged blade on the end.", img_url: "https://www.5zywiolow.com/shop/2754-large_default/lorian-glaive-195-cm.jpg", alignment_id: 1)
 
-Weapon.create(name: "Glaive", description: "Long polearm with a single-edged blade on the end.", img_url: "https://www.5zywiolow.com/shop/2754-large_default/lorian-glaive-195-cm.jpg", alignment_id: 2)
+Weapon.create(name: "Morningstar", description: "A medieval club-like weapon consisting of a shaft with an spiked ball attached to the end.", img_url: "https://mcishop.azureedge.net/mciassets/w_5_0034298_silver-spiked-morningstar_550.png", alignment_id: 2)
 
 Weapon.create(name: "Rapier", description: "A large, slender, sharply-pointed sword.", img_url: "https://mcishop.azureedge.net/mciassets/w_5_0008936_italian-brass-basket-rapier_550.png", alignment_id: 1)
 
-Weapon.create(name: "Sabre", description: "A curved backsword usually assoicated with cavalry.", img_url: "https://images-na.ssl-images-amazon.com/images/I/21Ikrqxsf-L._SX425_.jpg", alignment_id: 2)
+Weapon.create(name: "Brass knuckles", description: "Used in hand-to-hand combat, designed to increase the force of a punch.", img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMbDt3JDCHLaEbI6majyiL6f99Y1RygphJE-A2LpMFb-i0-pCG", alignment_id: 2)
 
-Weapon.create(name: "Epsilon Axe", description: "A battle axe resembling the Greek letter epsilon. Can be weilded one- or two-handed.", img_url: "https://vignette.wikia.nocookie.net/assassinscreed/images/6/64/ACO_Bronze_Epsilon_Axe.png/revision/latest?cb=20180119035509", alignment_id: 1)
+Weapon.create(name: "Boomerang", description: "A thrown weapon known for coming back to the user.", img_url: "https://www.kissthekangaroo.com.au/image/cache/catalog/products/Jabiru%20Boomerangs/Orange%20tip-500x500.jpg", alignment_id: 1)
 
 Weapon.create(name: "Labrys", description: "A large double-headed axe from Ancient Greece.", img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Minoische_Kultgegenstaende_-_Doppelaxt.jpg/220px-Minoische_Kultgegenstaende_-_Doppelaxt.jpg", alignment_id: 2)
 
-Weapon.create(name: "Aspis", description: "A large, heavy, round shield.", img_url: "https://66.media.tumblr.com/373a054f44ec9b34746d9be7aca20140/tumblr_inline_ou2kpyHGXK1rf8klv_540.png", alignment_id: 1)
+Weapon.create(name: "Warhammer", description: "SMASH!", img_url: "https://mcishop.azureedge.net/mciassets/w_5_0055201_medieval-warhammer_550.png", alignment_id: 1)
 
 Weapon.create(name: "Pelte", description: "A crescent-shaped shield allowing the user to attack through the top.", img_url: "https://i.pinimg.com/originals/de/e3/20/dee320ecc6b541650e3a4197874e87da.jpg", alignment_id: 2)
 
