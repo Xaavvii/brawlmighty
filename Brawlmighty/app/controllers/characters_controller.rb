@@ -1,12 +1,12 @@
 class CharactersController < ApplicationController
   def index
-    @user = User.find(session[:user])
+    # @user = User.find(session[:user])
     # if @user
-    if logged_in?
+    # if logged_in?
       @characters = Character.all
-    else
-      redirect_to "/login"
-    end
+    # else
+      # redirect_to "/login"
+    # end
   end
 
   def show
