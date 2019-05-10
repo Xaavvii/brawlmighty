@@ -1,2 +1,27 @@
-<h1>Please create Character</h1>
+<style>
+  body {
+    background-image: url('http://backissuebasement.co.uk/wp-content/uploads/2016/09/Justice-League-Avengers-DC-Comics-Marvel-Portada-960x623.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+  }
+  .blender {
+    background-blend-mode: luminosity;
+  }
+
+  .box {
+    box-sizing: border-box;
+    /* width: 50%; */
+    background: black;
+    border: 5px solid black;
+    float: center;
+    text-align: center;
+    opacity: 0.75;
+  }
+</style>
+
+<body class="blender">
+<div class="box"><h1>Please create Character</h1>
 <%= render 'form_for' %>
+</div>
+</body>
