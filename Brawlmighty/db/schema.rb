@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 6) do
 
   create_table "alignments", force: :cascade do |t|
     t.string "name"
+    t.string "img_url"
   end
 
   create_table "characters", force: :cascade do |t|
@@ -41,7 +42,7 @@ ActiveRecord::Schema.define(version: 6) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "username"
-    t.string "password"
+    t.string "password_digest"
   end
 
   create_table "weapons", force: :cascade do |t|

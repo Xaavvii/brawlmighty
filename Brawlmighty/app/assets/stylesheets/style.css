@@ -7,6 +7,7 @@ body
   /* font-family: Verdana, Geneva, Arial, sans-serif; */
   padding:0px;
   margin:0px;
+  color: ghostwhite;
 }
 
 #header_title
@@ -28,6 +29,24 @@ body
 {
   font-size: 4vw;
   padding: .5em;
-  background: gold;
+  border: 5px solid black;
+  background: black;
+  opacity: 0.75;
   text-align: center;
+}
+
+a:link {
+  color: gold;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: crimson;
 }
