@@ -1,4 +1,27 @@
-<h1>Name: <%= link_to @user.name, users_path %></h1>
+<style>
+  body {
+    background-image: url('http://backissuebasement.co.uk/wp-content/uploads/2016/09/Justice-League-Avengers-DC-Comics-Marvel-Portada-960x623.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+  }
+  .blender {
+    background-blend-mode: luminosity;
+  }
+
+  .box {
+    box-sizing: border-box;
+    /* width: 50%; */
+    background: black;
+    border: 5px solid black;
+    float: center;
+    text-align: center;
+    opacity: 0.75;
+  }
+</style>
+
+<body class="blender">
+<div class="box"><h1>Name: <%= link_to @user.name, users_path %></h1>
 <h2>User Name: <%= @user.username%></h2>
 <h2>User Password: <%= @user.password%></h2>
 
@@ -13,3 +36,5 @@
 <% end %>
 
 <h3><%= link_to 'New Character', '/characters/new' %></h3>
+</div>
+</body>
