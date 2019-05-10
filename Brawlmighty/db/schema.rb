@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 6) do
 
   create_table "alignments", force: :cascade do |t|
     t.string "name"
+    t.string "img_url"
   end
 
   create_table "characters", force: :cascade do |t|

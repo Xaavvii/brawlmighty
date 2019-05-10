@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #alignments
-Alignment.create(name: "Hero")
+Alignment.create(name: "Hero", img_url: "http://backissuebasement.co.uk/wp-content/uploads/2016/09/Justice-League-Avengers-DC-Comics-Marvel-Portada-960x623.jpg")
 
-Alignment.create(name: "Villain")
+Alignment.create(name: "Villain", img_url: "http://img4.wikia.nocookie.net/__cb20080510051033/marvel_dc/images/b/b9/Injustice_League_III.jpg")
 
 #powers
 Power.create(name: "Super speed", description: "Ability to run at and above super-sonic speed", img_url: "https://aussiegossip.com.au/wp-content/uploads/2016/08/7734332-3x2-700x467-1.jpg", alignment_id: 1)
