@@ -2,9 +2,11 @@
     <div class="notice"><%= flash[:notice] %></div>
   <% end %>
 
-<h1>Character Name: <%= link_to @character.name, characters_path %></h1>
-<h2>Alignment: <%= link_to @character.alignment.name, alignments_path %></h2>
-<h2>Power: <%= link_to @character.power.name, @character.power %></h2>
-<h2>Weapon: <%= link_to @character.weapon.name, @character.weapon %></h2>
-<h2>Terrain: <%= link_to @character.terrain.name, @character.terrain %></h2>
-<h2>Master: <%= link_to @character.user.username, @character.user %></h2>
+<ul>
+  <li><h1>Character Name: <%= link_to @character.name, characters_path %></h1></li>
+  <li><h1>Alignment: <%= link_to @character.alignment.name, alignments_path %></h1></li>
+  <li><h1>Power: <%= link_to @character.power.name, @character.power %></h1></li>
+  <li><h1>Weapon: <%= link_to @character.weapon.name, @character.weapon %></h1></li>
+  <li><h1>Terrain: <%= link_to @character.terrain.name, @character.terrain %></h1></li>
+  <li><h1>Master: <%= link_to @character.user.username, @character.user %></h1></li>
+</ul>
