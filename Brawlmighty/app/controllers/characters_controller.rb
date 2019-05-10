@@ -1,6 +1,12 @@
 class CharactersController < ApplicationController
   def index
-    @characters = Character.all
+    @user = User.find(session[:user])
+    # if @user
+    if logged_in?
+      @characters = Character.all
+    else
+      redirect_to "/login"
+    end
   end
 
   def show
@@ -36,6 +42,10 @@ class CharactersController < ApplicationController
   def destroy
     secure_params.destroy
     redirect_to character_path
+  end
+
+  def logged_in?
+    !!session[:user]
   end
 
   private
